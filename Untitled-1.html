@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      padding-top: 54px;
+      background-color: #fafafa;
+    }
+
+    .navbar {
+      height: 54px;
+      background-color: #fff;
+    }
+
+    .navbar-brand {
+      margin-left: 192px;
+    }
+
+    .form-inline .form-control {
+      margin-left: 5px;
+      background: url(assets/arama-simgesi.png) no-repeat;
+      background-size: cover;
+    }
+
+    .ml-auto.mt-2.mr-5 {
+      margin-top: 2px;
+      margin-left: 5px;
+    }
+
+    .col-md-8.offset-md-4.mt-2 {
+      margin-top: 2px;
+    }
+
+    .middlearea {
+      max-height: 200px !important;
+    }
+
+    @media (min-width: 576px) {
+      .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+
+    .d-flex.align-items-end .mr-2 {
+      margin-right: 2px;
+    }
+
+    .card-header,
+    .card-footer {
+      background-color: #fff;
+    }
+
+    .d-flex.align-items-center .ml-auto {
+      margin-left: auto;
+    }
+
+    .border-0 {
+      border: none !important;
+    }
+
+    .ml-auto.mr-3.mt-2 {
+      margin-right: 3px;
+      margin-top: 2px;
+    }
+
+    .bg-white {
+      background-color: #fff !important;
+    }
+
+    .stickysidebar {
+      position: sticky;
+      top: 54px;
+    }
+
+    .rightpanel {
+      background-color: #fff;
+      border: none;
+    }
+
+    .text-right {
+      text-align: right !important;
+    }
+
+    .mt-3.text-right {
+      margin-top: 3px;
+      text-align: right !important;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" height="50px" alt="Logo">
+    </a>
+    <form class="form-inline ml-auto">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Ara">
+      </div>
+    </form>
+    <div class="ml-auto mt-2 mr-5 d-none d-sm-block">
+      <i class="far fa-compass"></i>
+      <i class="far fa-heart"></i>
+      <i class="far fa-user"></i>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="stickysidebar">
+          <div class="rightpanel">
+            <div class="mt-3 text-right">
+              <span class="mr-3">Tümünü Gör</span>
+              <span>Takip Et</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 offset-md-4 mt-2">
+        <div class="middlearea">
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="d-flex align-items-center">
+                <img src="https://fastly.picsum.photos/id/810/200/200.jpg?hmac=h-LObTvlGPc-9CHrUTHemskWMBEOjqEWQejDQV2zvg4" alt="Profil Resmi" width="30" height="30" class="rounded-circle mr-2">
+                <span>John Doe</span>
+                <div class="ml-auto">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <!-- İçerik -->
+              <img src="https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U" alt="Fotoğraf" width="600" height="400">
+            </div>
+            <div class="card-footer bg-white border-0">
+              <div class="d-flex align-items-center">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>
+                <div class="ml-auto">
+                  <i class="far fa-bookmark"></i>
+                </div>
+              </div>
+              <div class="mt-2 text-right">
+                <span>Beğenme: 100</span>
+              </div>
+              <div class="mt-2">
+                <span>John Doe: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+              </div>
+              <div class="mt-2 text-right">
+                <span>3 saat önce</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
